@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Icono de la app de Facturacion/Contabilidad en el estandar de iconos MBA.
+         El nombre del menu NO se cambia aqui: renombrar requiere traduccion
+         (es_419) y se prueba aparte en una instancia de pruebas. -->
+    <record id="account.menu_finance" model="ir.ui.menu">
+        <field name="web_icon">mba_ux_branding,static/description/account_icon.png</field>
+    </record>
+</odoo>
